@@ -30,7 +30,6 @@ MovieList.propTypes = {
       name: PropTypes.string,
     })
   ).isRequired,
-  isSearchPerformed: PropTypes.bool.isRequired, // Додаємо обов’язкову перевірку
 };
 
 MovieList.defaultProps = {
