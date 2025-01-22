@@ -30,11 +30,9 @@ MovieList.propTypes = {
       name: PropTypes.string,
     })
   ).isRequired,
+  isSearchPerformed: PropTypes.bool.isRequired, };
 
 MovieList.defaultProps = {
-  isSearchPerformed: false, // Значення за замовчуванням
-};
-
-export default MovieList;
+  isSearchPerformed: false, };
 
 export default MovieList;
